@@ -1,0 +1,11 @@
+.divpadding {
+  padding-left: 15px;
+  border-left: 6px solid rgba(3, 0, 209, 0.698);
+  padding-top: 5px;
+}
+.divpaddingtop {
+  padding-top: 5px;
+}
+.itempadding {
+  padding-left: 20px;
+}

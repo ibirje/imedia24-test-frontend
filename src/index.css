@@ -1,0 +1,121 @@
+
+@font-face {
+  font-family: gilroybold;
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: gilroylight;
+  src: url("./assets/fonts/Gilroy-Light.otf") format("opentype");
+}
+
+
+
+
+.gilroybold, gbold, boldfont {
+font-family: 'gilroybold';
+--ion-font-family: "gilroybold";
+}
+
+.gilroylight,glight, lightfont {
+font-family: 'gilroylight';
+--ion-font-family: "gilroylight";
+}
+
+
+html,
+body,
+div,
+span,
+a,
+input,
+button,
+.size-medium {
+  font-family: gilroylight;
+  --ion-font-family: "gilroylight";
+}
+
+.smd-text {
+  font-size: 0.9em;
+}
+.md-text {
+  font-size: 1em;
+}
+.lg-text {
+  font-size: 1.2em;
+}
+.xl-text {
+  font-size: 1.4em;
+}
+.xxl-text {
+  font-size: 1.6em;
+}
+
+.mxl-text {
+  font-size: 6em;
+  font-family: gilroybold;
+  --ion-font-family: "gilroybold";
+}
+
+@media (min-width: 761px) and (max-width: 1366px) {
+  .smd-text {
+    font-size: 0.85em;
+  }
+  .md-text {
+    font-size: 0.95em;
+  }
+  .lg-text {
+    font-size: 1.15em;
+  }
+  .xl-text {
+    font-size: 1.35em;
+  }
+  .xxl-text {
+    font-size: 1.55em;
+  }
+  .mxl-text {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 760px) {
+  .smd-text {
+    font-size: 0.8em;
+  }
+  .md-text {
+    font-size: 0.9em;
+  }
+  .lg-text {
+    font-size: 1.05em;
+  }
+  .xl-text {
+    font-size: 1.25em;
+  }
+  .xxl-text {
+    font-size: 1.45em;
+  }
+  .mxl-text {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .smd-text {
+    font-size: 0.7em;
+  }
+  .md-text {
+    font-size: 0.8em;
+  }
+  .lg-text {
+    font-size: 1em;
+  }
+  .xl-text {
+    font-size: 1.15em;
+  }
+  .xxl-text {
+    font-size: 1.3em;
+  }
+  .mxl-text {
+    font-size: 2em;
+  }
+}
